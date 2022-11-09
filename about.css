@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&display=swap');
+
+body {
+    background-color: #3c6e71;
+    font-family: sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #294e50;
+  color: #F2ECE4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px -5px 9px 0px black;
+}
+
+#logo {
+  width: 50px;
+  padding: 10px 0 0 20px;
+}
+
+.social {
+  display: flex;
+  padding: 10px 20px 0 0;
+  gap: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav li {
+  display: inline-block;
+}
+
+.links ul {
+  display: flex;
+  gap: 50px;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  margin: 0;
+}
+
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #772e25;
+  color: #edddd4;
+  border-top: 30px #edddd4 solid;
+  border-bottom: 30px #edddd4 solid;
+  padding: 40px;
+  gap: 30px
+}
+
+#intro p {
+  margin: 0;
+}
+
+#hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.title {
+  border-bottom: 1px #edddd4 solid;
+}
+
+.title h2 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+article {
+  max-width: 700px;
+  overflow: auto;
+  color: #294e50;
+  background-color: #edddd4;
+  padding: 20px 40px;
+  margin-top: 50px;
+  border-radius: 30px;
+}
+
+article h2 {
+  font-size:32px;
+  border-bottom: 1px #283d3b solid
+}
+
+article img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.even img {
+  float: left;
+  padding: 20px 20px 20px 0;
+}
+
+.odd img {
+  float: right;
+  padding: 20px 0 20px 20px;
+}
+
+footer {
+  background-color: #283d3b;
+  color: white;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
